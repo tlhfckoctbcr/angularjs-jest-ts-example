@@ -1,6 +1,6 @@
 export default {
   controller: class Counter {
-    count = 0;
+    private count = 0;
 
     $onInit() {
       this.count = 1;
@@ -14,7 +14,7 @@ export default {
       this.count -= 1;
     }
   },
-  template: function(): string {
+  template() {
     return `
       <div>
           <input ng-model="$ctrl.count"></div>

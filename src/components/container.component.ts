@@ -1,9 +1,9 @@
 export default {
-  template: function() {
+  template() {
     return `
     <header>
       <h1>
-        Example Ng1.x App
+        Counter
       </h1>
     </header>
     <div>
